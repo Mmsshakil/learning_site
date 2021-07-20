@@ -1,0 +1,202 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line: height 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/*navigation bar*/
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*download buttons*/
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 15%;
+
+}
+
+.image-position-problem {
+    position: relative;
+}
+
+/*features*/
+
+#features {
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+
+#features div {
+    padding: 5%;
+}
+
+#features i {
+    color: #ef8172;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#features i:hover {
+    color: #ff4c68;
+}
+
+/*
+#features h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+#features p{
+    color: #8f8f8f;
+}
+*/
+
+
+/*testimonial*/
+
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 20%;
+}
+
+
+/*press section*/
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 13%;
+    margin: 20px 20px 40px;
+}
+
+/* pricing section*/
+
+#pricing {
+    text-align: center;
+
+    padding: 100px;
+}
+
+.pricing-column {
+
+    padding: 3% 2%;
+}
+
+/* it make responsive the title image and title section */
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* Cta section */
+#cta{
+    text-align: center;
+    color: #fff;
+    background-color: #ff4c68;
+    padding:5% 15%;
+}
+
+#cta h3{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+
+}
+
+/* Footer section */
+
+#footer {
+    font-family: 'Montserrat-Black', sans-serif;
+    text-align: center;
+    padding: 7%;
+    background-color:#fff;
+}
+#footer i{
+    padding: 7px;
+    margin-bottom: 15px;
+}
